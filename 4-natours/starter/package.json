@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
-    "start:prod": "NODE_ENV=production nodemon server.js",
-    "debug": "ndb server.js"
+    "start:prod": "NODE_ENV=production nodemon server.js"
   },
   "author": "Jonas Bucinskas",
   "license": "ISC",
@@ -27,7 +26,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
-    "ndb": "^1.1.5",
     "prettier": "^2.8.4"
   },
   "engines": {
